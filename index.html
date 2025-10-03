@@ -14,19 +14,15 @@ Select ONE Additional Feature to Add
 -->
     
 <!DOCTYPE HTML>
-<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>Unit 2 Project</title>
-        
         <style>
-          
         .flip-card{
-            background-color:transparent;
-            width: 300px;
-            height: 200px;
-            border: 1px solid #f1f1f1;
+            background-color:greenyellow;
+            width: 900px;
+            height: 600px;
+            border: 1px transparent;
             perspective: 1000px;
         }
 
@@ -40,7 +36,7 @@ Select ONE Additional Feature to Add
         }
 
         .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
+            transform: rotateY(180deg) translateX(300px);
         }
 
         .flip-card-front {
@@ -49,9 +45,8 @@ Select ONE Additional Feature to Add
             height: 100%;
             -webkit-backface-visibility:hidden;
             backface-visibility: hidden;
-            background-color: white;
+            background-color: rgb(255, 102, 102);
             color: black;
-            transform: rotate(180deg);
         }
 
         .flip-card-back {
@@ -62,26 +57,55 @@ Select ONE Additional Feature to Add
             backface-visibility: hidden;
             background-color: blue;
             color: white;
-            transform: rotate(180deg);
+            transform: rotatey(180deg);
         }
-
-
         </style>
-
     </head>
   
     <body>
+        <center>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
         <div class="flip-card">
+            <h1> testing TESTING TESTING HELOOOOOOOOOOSDJASDHAJKSDAKJDSHAKDHA</h1>
+
             <div class="flip-card-inner">
+                <!--front--------------------------------------------->
+                
                 <div class="flip-card-front">
                     <h2>front</h2>
                 </div>
 
+                <!----------------------------------->
+
                 <div class="flip-card-back">
                     <h2>back </h2>
                 </div>
+
+                <!--back---------------------------------------------->
             </div>
         </div>
 
+        <br>
+        <br>
+        <br>
+
+            <h3>credits!</h3>
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/SSWpTCAKJvA?si=fM5sPS1so0KLISN1"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </center>
     </body>
 </html>
